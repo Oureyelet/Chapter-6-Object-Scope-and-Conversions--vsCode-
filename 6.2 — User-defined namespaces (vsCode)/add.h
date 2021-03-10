@@ -9,4 +9,9 @@ namespace basic_Math
     int add(int,int);
 }
 
+namespace first::second::lol::realy
+{
+    int multiplication(int,int);
+}
+
 #endif // end ADD_H

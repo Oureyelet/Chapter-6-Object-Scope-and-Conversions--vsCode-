@@ -4,6 +4,17 @@
 #include "growth.h"
 #include "add.h" // for basicMath::add()
 
+namespace first_example
+{
+    namespace second_example
+    {
+        int subtration(int x, int y)
+        {
+            return x - y;
+        }
+    }
+}
+
 int main()
 {
 
@@ -41,7 +52,31 @@ int main()
     std::cout << basic_Math::pi << '\n';
     std::cout << basic_Math::e << '\n';
     std::cout << basic_Math::add(4, 3) << '\n';
+    
 
+    /*----------------
+    Nested namespaces
+    ----------------*/
+
+    //Namespaces can be nested inside other namespaces. For example:
+
+    std::cout << first_example::second_example::subtration(100, 93) << '\n';
+
+    //Since C++17, nested namespaces can also be declared this way:
+
+    std::cout << first::second::lol::realy::multiplication(7, 7) << '\n';
+
+    /*----------------
+    Namespace aliases
+    ----------------*/
+
+    /*
+    C++ allows you to create 'namespace aliases', which allow us to temporarily shorten a 
+    long sequence of namespaces into something shorter:    
+    */
+    namespace aliases = first::second::lol::realy; // aliases now refers to first::second::lol::realy
+
+    std::cout << aliases::multiplication(101, 101) << '\n';
 
     return 0;
 }
