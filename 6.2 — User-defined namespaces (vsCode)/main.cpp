@@ -76,7 +76,7 @@ int main()
     */
     namespace aliases = first::second::lol::realy; // aliases now refers to first::second::lol::realy
 
-    std::cout << aliases::multiplication(101, 101) << '\n';
+    std::cout << aliases::multiplication(101, 101) << '\n'; //This is realy aliases namespace.
 
     return 0;
 }
