@@ -14,4 +14,4 @@ namespace first::second::lol::realy
     {
         return x * y;
     }
-}
+}//.

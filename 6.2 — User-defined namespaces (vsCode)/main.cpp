@@ -78,5 +78,7 @@ int main()
 
     std::cout << aliases::multiplication(101, 101) << '\n'; //This is realy aliases namespace.
 
+    std::cout << "Hello World\n";
+
     return 0;
 }

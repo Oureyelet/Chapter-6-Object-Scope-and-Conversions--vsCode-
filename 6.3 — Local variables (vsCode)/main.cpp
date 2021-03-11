@@ -13,7 +13,7 @@ int main()
     int i { 5 }; // i enters scope here
     double d { 4.0 }; // d enters scope here
 
-    std::cout << max(10, 12) << '\n';
+    std::cout << max(100, 12) << '\n';
 
 
     return 0;
