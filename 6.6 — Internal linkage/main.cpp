@@ -3,9 +3,9 @@
 
 int main()
 {
-    /*------------------------------------
-    Global variables with internal linkage
-    ------------------------------------*/
+    /*------------
+    Quick summary
+    -------------*/
 
     /*
     Internal global variables definitions:
