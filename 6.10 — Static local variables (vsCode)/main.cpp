@@ -47,9 +47,16 @@ int main()
     incrementAndPrint_incrementAndPrint_Static_Duration();
     incrementAndPrint_incrementAndPrint_Static_Duration();
 
-    generateID();
-    generateID();
-    generateID();
+    std::cout << generateID() << '\n';
+    std::cout << generateID() << '\n';
+    std::cout << generateID() << '\n';
+
+    /*
+    Best practice
+
+    Avoid static local variables unless the variable never needs to be reset. 
+    static local variables decrease reusability and make functions harder to reason about.
+    */
     
 
     return 0;
