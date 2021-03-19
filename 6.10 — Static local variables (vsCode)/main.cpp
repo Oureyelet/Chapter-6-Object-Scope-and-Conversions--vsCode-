@@ -1,4 +1,5 @@
 #include <iostream>
+#include "first.h"
 
     /*--------------------
     Static local variables
@@ -46,6 +47,10 @@ int main()
     incrementAndPrint_incrementAndPrint_Static_Duration();
     incrementAndPrint_incrementAndPrint_Static_Duration();
 
+    generateID();
+    generateID();
+    generateID();
+    
 
     return 0;
 }
