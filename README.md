@@ -1,4 +1,4 @@
-# Chapter-6-Object-Scope-and-Conversions--vsCode-
+# Mateusz Kacperski
 
 I learn c++ from www.learncpp.com.
 Everyday i try spend minimum one hour on it.
