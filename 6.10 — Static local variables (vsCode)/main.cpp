@@ -41,6 +41,7 @@ int main()
     incrementAndPrint_Automatic_Duration();
     incrementAndPrint_Automatic_Duration();
 
+
     incrementAndPrint_incrementAndPrint_Static_Duration();
     incrementAndPrint_incrementAndPrint_Static_Duration();
     incrementAndPrint_incrementAndPrint_Static_Duration();
