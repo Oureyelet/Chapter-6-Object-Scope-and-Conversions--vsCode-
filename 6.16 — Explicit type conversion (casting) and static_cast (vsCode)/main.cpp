@@ -76,10 +76,5 @@ int main()
     Favor static_cast when you need to convert a value from one type to another type
     */
 
-    /*-------------------------------------------------------
-        Using casts to make implicit type conversions clear
-    --------------------------------------------------------*/
-
-
     return 0;
 }
